@@ -1,3 +1,18 @@
+Hi! This is a fork by me (Sirdoggy) with recompiled .dll for Hollow Knight 1.5.12620
+
+I have not tested the majority of the functions of the mod and I do not plan on maintaining it further.
+This is simply a minimal fix.
+
+Back up your save file before using! `%userprofile%\AppData\LocalLow\Team Cherry\Hollow Knight`
+
+Follow the [installation instructions on nexusmods](https://www.nexusmods.com/hollowknight/mods/45), but inside the
+`plugins/` folder place the updated .dll from this 
+project's [Releases](https://github.com/sirdoggy45/HollowKnight_ConsoleCommands/releases) page.
+
+Original repo description below.
+
+---
+
 # DO NOT USE THIS. IT'S HELLA OLD
 # IT _WILL_ BREAK YOUR CHARACTER, AND I'M TIRED OF FIXING THEM.
 # USE THE VERSION ON NEXUSMODS, SAVE US BOTH THE HEARTACHE AND TIME.
