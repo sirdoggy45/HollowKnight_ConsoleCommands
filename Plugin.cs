@@ -1,9 +1,8 @@
 ﻿using BepInEx;
 using UnityEngine;
-using TMPro;
-using System.Xml.Serialization;
 using GlobalEnums;
 using System.Collections.Generic;
+using TMProOld;
 
 namespace ConsoleCommands
 {
@@ -153,14 +152,9 @@ namespace ConsoleCommands
             Log("Unlocking All Achievements\nRate the mod on nexus if you enjoy! (;");
             //find current achievement handler
             AchievementHandler achievementHandler = FindObjectOfType<AchievementHandler>();
-
+            
             //I'm not sure which one actually worked, but I'm leaving both in because I don't wanna test it. It works, and that's all that matters. (it gave me all 63 achievements <3)
             achievementHandler.AwardAllAchievements();
-
-            foreach (Achievement achievement in achievementHandler.achievementsList.achievements)
-            {
-                achievementHandler.AwardAchievementToPlayer(achievement.key);
-            }
         }
 
         public void Log(string message)
